@@ -3,65 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed's portofolio</title>
+    <title>Portofolio</title>
     <link rel="stylesheet" href="www/css/style.css">
 </head>
-<body>
-    <!-- single page portofolio-->
-    
-    <h1>Portofolio</h1>
-    <img src="www/materials/m2.jpg" alt="a pic of me">
-    <h2>Mohamed Salah-Eldeen Mahmoud Said</h2>
-    <!-- sidebar-->
-    <div class="content">
-    <div class="side">
-        <fieldset>
-            <legend>Basic Info</legend>
-        <section class="contact">
-        <!-- basic info about me-->
+<body>    
+    <!-- navigation-->
+        <div id="menu">
+            <nav>
+                <a href="#" onclick="window.scrollTo(0.0)"><img src="www/materials/home.svg" alt="" id="nav"></a>
+                <a href="#contact"><img src="www/materials/contact.svg" alt="" id="nav"></a>
+                <a href="#projects"><img src="www/materials/app.png" alt="" id="nav"></a>
+            </nav>
+        </div>
+        <div id="particles-js">
+            
+        </div>
+            <!-- Heading -->
+        <div id="welcome">
+            <h1>Hello, <br> I<span>'</span>m <span>Mohamed</span></h1>
+            <img src="www/materials/m2.jpg" alt="me" id="img">
+        </div>
+        <!-- About me-->
+        <div id="about">
+            <h2>About Me</h2>
+            
+            <h3 id="span">
+                Eat,{Code},Sleep,Repeat
+            </h3>
+            <p>
+                I'm an enthusiastic Full-Stack Developer.I'm a student at faculty of commerce - Accounting Department,Alexandria University. I grew up with a great passion towards computers in general.I'm currently developing myself each day trying to fulfill this passion.
+            </p>
+        </div>
+    <!-- middle content-->
+        <div id="content">
+            <h2>Technology Stack</h2>
             <ul>
                 <li>
-                    Date of birth: 11 - 2 - 1998
+                    HTML
                 </li>
                 <li>
-                    Email: <a href="mailto:mhmdSalah707@gmail.com">mhmdSalah707@gmail.com</a>
+                    CSS
+                </li>
+                <li>
+                    JavaScript
+                </li>
+                <li>
+                    JQuery & Ajax
+                </li>
+                <li>
+                    MySQL
+                </li>
+                <li>
+                    PHP
                 </li>
             </ul>
-        </section>
-        </fieldset>
-    </div>
-    <!-- main content-->
-
-    <div class="main">
-        <fieldset>
-            <legend>Who am I?...</legend>
-            <section class="brief">
-                <!-- brief text about me-->
-                <p id="abt">I am <strong>Mohamed Salah-Eldeen Mahmoud Said</strong>. <br>
-                     A faculty of commerce senior student accounting major at alexandria university. <br>
-                     I am a passionate individual, a dreamer, and a hard-worker.</p>
-            </section>
-        </fieldset>
-        <fieldset>
-            <legend>My Past Experience...</legend>
-            <section class="exp">
-                <!-- my past work experience-->
-            </section>
-        </fieldset>
-        <fieldset>
-            <legend>My Education...</legend>
-            <section class="edu">
-                <!-- my education -->
-            </section>
-        </fieldset>
-        <fieldset>
-            <legend>Civil Work & Student Activites...</legend>
-            <section class="civil">
-                <!-- my civil work-->
-            </section>
-        </fieldset>
-    </div>
-    </div>
-    
+        </div>
+        <!-- Projects-->
+        <h2>Projects</h2>
+        <div id="projects">
+            <figure>
+                <a href="https://mosalah001.github.io/to-do-list/" target="_blank"><img src="www/materials/todo.png" alt=""></a>
+                <figcaption><a href="https://mosalah001.github.io/to-do-list/" target="_blank">Todo List</a></figcaption>
+            </figure>
+        </div>
+        <!-- Contact-->
+        <h2>Contact me</h2>
+        <div id="contact">
+            <a href="https://www.facebook.com/reaper4ever" target="_blank"><img src="www/materials/face.jpg" alt="" id="con-images"></a>
+            <a href="https://twitter.com/MoSalah001" target="_blank"><img src="www/materials/twitter.png" alt="" id="con-images"></a>
+            <a href="https://github.com/MoSalah001" target="_blank"><img src="www/materials/github.png" alt="" id="con-images"></a>
+            <a href="https://www.instagram.com/abosalah101" target="_blank"><img src="www/materials/insta.jpg" alt="" id="con-images"></a>
+            <a href="https://www.linkedin.com/in/MoSalah001" target="_blank"><img src="www/materials/linked.png" alt="" id="con-images"></a>
+            <a href="mailto:mhmdsalah707@gmail.com" target="_blank"><img src="www/materials/mail.png" alt="" id="con-images"></a>
+        </div>
+    <!--bottom content-->
+        <div id="footer">
+            <footer>
+                Designed and coded with love by: <a href="https://github.com/MoSalah001" target="_blank">Mohamed Salah-Eldeen</a>
+            </footer>
+        </div>
+        <script src="www/js/particles.js"></script>
 </body>
 </html>
