@@ -214,6 +214,9 @@ figcaption {
     font-size: 40px;
 }
 @media (min-width: 768px) {
+    div{
+        display:flex;
+    }
     #img {
         margin: 135px 0 65px 0;
     }
