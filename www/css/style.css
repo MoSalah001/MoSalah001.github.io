@@ -207,6 +207,8 @@ a , a:visited{
 
 figure img {
     border-radius: 50%;
+    width : 350px;
+    height: 350px;
 }
 
 
