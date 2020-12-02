@@ -216,6 +216,28 @@ figcaption {
     text-align: center;
     font-size: 40px;
 }
+
+
+.ani {
+    transform-origin: center;
+    animation: wheeler 3s 1s linear infinite;
+}
+
+
+@keyframes wheeler {
+    0% {
+        transform: rotate(90deg);
+        background-color: yellowgreen;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: turquoise;
+    }
+    100% {
+        transform: rotate(270deg);
+        background-color: yellowgreen;
+    }
+}
 @media (min-width: 768px) {
     div{
         display:flex;
